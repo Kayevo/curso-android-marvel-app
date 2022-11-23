@@ -18,12 +18,12 @@
         <entry key="app/src/main/res/drawable/ic_img_placeholder.xml" value="0.303" />
         <entry key="app/src/main/res/drawable/ic_not_favorite_unchecked.xml" value="0.231" />
         <entry key="app/src/main/res/drawable/ic_placeholder.xml" value="0.2875" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/detail_fragment.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/fragment_about.xml" value="0.3619791666666667" />
-        <entry key="app/src/main/res/layout/fragment_characters.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_characters.xml" value="0.67" />
         <entry key="app/src/main/res/layout/fragment_detail.xml" value="0.37604166666666666" />
-        <entry key="app/src/main/res/layout/fragment_favorites.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/fragment_favorites.xml" value="0.35714285714285715" />
         <entry key="app/src/main/res/layout/include_error_view.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/include_view_categories_loading_state.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/include_view_characters_error_state.xml" value="0.37604166666666666" />
