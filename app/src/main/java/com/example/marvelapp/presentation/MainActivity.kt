@@ -28,7 +28,16 @@ class MainActivity : AppCompatActivity() {
         bottomNav.setupWithNavController(navController)
 
         appBarConfig = AppBarConfiguration(
-            setOf()
+            setOf(R.id.charactersFragment, R.id.favoritesFragment, R.id.aboutFragment)
         )
+
+        binding.toolbar.setupWithNavController(navController, appBarConfig)
+
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            val isTopLevelDestination = appBarConfig.topLevelDestinations.contains(destination.id)
+            if (!isTopLevelDestination) {
+                binding.toolbar.setNavigationIcon(R.drawable.ic_back)
+            }
+        }
     }
 }
